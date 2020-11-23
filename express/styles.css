@@ -1,14 +1,17 @@
 body{
+  overflow-x: hidden;
+  position: relative;
   background-color: #161616;
   font-family: Montserrat;
   font-weight: 500;
-  overflow-x: hidden;
 }
 body::-webkit-scrollbar{
   display: none;
 }
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
+
 }
 
 a{
@@ -81,6 +84,8 @@ a:hover{
   display: float;
   z-index:-1;
   float:right;
+  padding: 0;
+  margin: 0;
   right:-80px;
 }
 
@@ -480,7 +485,8 @@ a:hover{
   .pos-form{width:90%;}
 }
 .cont-det{
-  width: 100%;
+ 
+  padding: 0;
 }
 
 .description{
