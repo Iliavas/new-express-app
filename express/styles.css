@@ -448,21 +448,26 @@ a:hover{
   display: block;
   margin-left:auto;
   margin-right:auto;
-  width: 80%;
+  width: 60%;
   height: 68px;
   background-color:#3090FC;
   border-radius: 10px;
+  height: 78px;
 }
 .vk-btn-inner{
   height: 100%;
 
   font-size:18px;
   font-weight: 600;
-  padding-top: 8px;
+  padding-top: 14px;
+  
 }
+
+
 .vk-text{
   position: relative;
   display: inline-block;
+  top:3px;
   margin-left: 10px;
   color:white;
   font-size: 24px;
@@ -476,4 +481,15 @@ a:hover{
 }
 .cont-det{
   width: 100%;
+}
+
+.description{
+  display: block;
+  height: 320px;
+}
+
+@media(max-width:598px){
+  .vk-btn{
+    width:95%;
+  }
 }
